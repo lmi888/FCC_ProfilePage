@@ -1,0 +1,191 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #57272a;
+    background-color: rgba(198, 205, 246, 0.4);
+}
+#home /* this doesn't work boooo.... */
+{
+  margin:0;
+  padding:0;
+}
+
+.i
+{
+  font-style: italic;
+}
+
+.pax1 {
+    background-image: url("http://i.imgur.com/nFDeVsU.jpg");
+    height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  /* background-image: url("http://i.imgur.com/nFDeVsU.jpg");
+        */
+}
+
+.pax2 {
+    background-image: url("http://i.imgur.com/JlA4Bqt.jpg");
+    height: 350px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*
+
+  background-image: url("http://i.imgur.com/JlA4Bqt.jpg");
+    */
+}
+
+ul {
+    display: --webkit-flex;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 10px;
+    justify-content: space-around;
+    font-family: 'Cinzel', serif;
+    font-size: 25px;
+    list-style: none;
+    background-color: #fff;
+    opacity: 0.8;
+}
+
+li {
+    align-items: center;
+}
+
+h1 {
+    font-size: 60px;
+
+    text-align: center;
+    font-family: 'Cinzel', serif;
+
+}
+
+.flex-item h2 {
+    font-family: 'Cinzel', serif;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 20px;
+ }
+
+.flex-item h3 {
+    font-family: 'Cinzel', serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+hr
+{
+  width: 50%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+a:link {
+    color: #57272a;
+    text-decoration: none;
+}
+
+.about {
+    height: 250px;
+ /* background-color: #DEF1FF; */
+    margin: 0;
+    padding: 10px;
+    font-family: 'EB Garamond', serif;
+    font-size: 1.2em;
+}
+
+
+/*
+    font-family: 'EB Garamond', serif;
+    font-size: 1.2em;
+*/
+.projects {
+    display: --webkit-flex;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    font-family: 'Cinzel', serif;
+}
+.projects ul {
+    height: 300px;
+    width: 90%;
+ }
+
+.projects img {
+    height: 200px;
+    width: 200px;
+}
+
+.navbar-container {
+    position: fixed;
+    height: 200px;
+    width: 100%;
+
+}
+
+.navbar-container a {
+    text-decoration: none;
+    float: left;
+    color: #57272A;
+    padding: 20px;
+    font-family: 'Cinzel', serif;
+}
+ .projects img {
+     width: 200px;
+     height: 200px;
+    }
+
+.social-media
+{
+  display: --webkit-flex;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 80px;
+  margin-top: 80px;
+  font-family: 'Cinzel', serif;
+  font-size: 25px;
+}
+
+.contact
+{
+  display: --webkit-flex;
+  display: flex;
+  flex-flow: column;
+  font-family: 'Cinzel', serif;
+  align-items: center;
+}
+
+input
+{
+margin: 20px;
+width: 400px;
+height: 30px;
+font-family: 'EB Garamond', serif;
+font-size: 1.2em;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+border: 1px solid gray;
+padding: 5px;
+}
+
+textarea
+{
+  width: 400px;
+  height: 100px;
+  font-family: 'EB Garamond', serif;
+  font-size: 1.2em;
+  border: 1px solid gray;
+  padding: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
